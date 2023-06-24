@@ -1,0 +1,70 @@
+@media screen and (max-width: 922px) {
+
+}
+@media screen and (max-width: 575px) {
+    .hero-tagline h1{
+        line-height: 52px;
+        font-size: 40px;
+    }
+
+    .hero-tagline p{
+        color: #fff;
+        font-size: 16px;
+        line-height: 15px;
+        width: 65%;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    .hero-section{
+        width: 450px;
+    }
+
+    .button-lg-primary{
+        width: 158px;
+        height: 35px;
+        font-size: 15px;
+    }
+    .lingkaran{
+        width: 50px;
+        height: 50px;
+    }
+    .ling{
+        width: 30px;
+        height: 30px;
+    }
+    .card-layanan h3{
+        font-size: 18px;
+        font-weight: 700;
+        color: #048853;
+        margin-top: 10px;
+    }
+    .card-layanan p{
+        color: #000;
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 20px;
+    
+        
+    }
+    .search-judul p{
+        color: #fff;
+        font-size: 16px;
+        line-height: 20px;
+        width: 70%;
+    
+    }
+    .input-cari .button-secondary{
+        width: 50%;
+        height: 60px;
+       
+    }
+    .input-cari .button-primary{
+        height: 60px;
+        width: 70px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 350px) {
+ 
+}
