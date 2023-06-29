@@ -23,6 +23,7 @@ body{
     border: none;
     font-weight: 700;
     color: var(--pr-color);
+    
 }
 .button-primary{
     width: 133px;
@@ -190,6 +191,7 @@ span{
 }
 .input-cari{
     height: 88px;
+
 }
 .input-cari:focus{
     border: none;
@@ -354,77 +356,25 @@ span{
 
  /*section-kontak*/
  #kontak{
-    width: 100%;
-    height: 100vh;
-    background-image: url('../assets/img/bgkontak.png');
-    background-repeat: no-repeat;
+    margin-top: 100px;
+    background-image: url('/assets/img/bgkontak.png');
     background-size: cover;
+    background-repeat: no-repeat;
  }
- .burem{
-    width: 100%;
-    height: 90vh;
-    background-color:rgba(0, 0, 0,0.8);
+ #kontak .overley{
+    background-color: #000;
+    opacity: 50%;
  }
- .box{
-    width: 593px;
-    height: 445px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-    margin-top: 100px;
+ #kontak .container{
+    padding: 148px 0 148px 0;
  }
- .kotak-kontak{
-    margin-top: 100px;
-    width: 50%;
- }
- .kotak-kontak h2{
-   font-size: 40px;
-   color: #fff;
-
- }
- .kotak-kontak span{
-   font-size: 18px;
-   color: #fff;
-
- }
- .kotak-kontak p{
-   font-size: 16px;
-   color: #fff;
- }
- .kotak-kontak img{
-   margin-right: 10px;
- }
- .footer img{
-    width:30px ;
-    height: 30px;
- }
- .footer{
-    width: 100%;
-    height: 100px;
-    background-color: #0a3f2a;
-    padding-top: 20px;
- }
- .footer a{
-    color: #8a7171;
-    text-decoration: none;
-    margin-left: 10px;
- }
- .footer img{
-    margin-right: 10px;
- }
- .footer a:hover{
+ #kontak h3{
+    font-size: 40px;
+    font-weight: 600;
     color: #fff;
-    text-decoration: none;
-    margin-left: 10px;
  }
- .box .btn-pertanyaan{
-    width: 497px;
-    height: 38px;
-    border-radius: 5px;
-    background-color: #048853;
-    border: none;
-    margin-top: 30px;
- }
- .box h1{
+ .contak h6{
+    font-size: 18px;
+    font-weight: 600;
     color: #fff;
-    font-weight: 700;
  }
