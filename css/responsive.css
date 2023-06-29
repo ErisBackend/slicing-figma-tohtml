@@ -17,6 +17,16 @@
     .button-lihat button{
         width: 100%;
      }
+     .card-kontak{
+        margin-top: 20px;
+     }
+     
+     .card-kontak h2{
+       font-size: 20px;
+     }
+     #kontak h3{
+        font-size: 30px;
+     }
      
 }
 @media screen and (max-width: 575px) {
@@ -85,10 +95,21 @@
         font-size: 14px;
     }
     
-     #kontak .kotak-kontak h2{
-       font-size: 40px;
+     #kontak h3{
+       font-size: 30px;
+       width: 100%;
        color: #c92121;
     
+     }
+     .contak h6{
+        font-size: 18px;
+        font-weight: 600;
+     }
+     .card-kontak{
+       margin-top: 30px;
+     }
+     .card-kontak h2{
+       font-size: 24px;
      }
 }
 @media screen and (max-width: 350px) {

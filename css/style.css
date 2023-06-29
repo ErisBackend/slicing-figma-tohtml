@@ -362,6 +362,7 @@ span{
     background-repeat: no-repeat;
  }
  #kontak .overley{
+    z-index: 1;
     background-color: #000;
     opacity: 50%;
  }
@@ -373,8 +374,48 @@ span{
     font-weight: 600;
     color: #fff;
  }
- .contak h6{
+ #kontak h6{
     font-size: 18px;
     font-weight: 600;
     color: #fff;
+    margin: 19px 0 14px 0;
+ }
+.contak a{
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight:400 ;
+    color: #fff;
+    text-decoration: none;
+    width: 332px;
+}
+ .card-kontak{
+    width: 100%;
+    height: auto;
+    padding: 50px 40px 50px 40px;
+    background-color: #fff ;
+    opacity: 100%;
+    border-radius: 5px;
+ }
+ .card-kontak h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: 00985B;
+    margin-bottom: 15px;
+    text-align: center;
+ }
+ .form-control{
+    background-color: #C4C4C4;
+    border: none;
+ }
+ .button-kontak{
+    width: 100%;
+    background-color: #048853;
+    height: 50px;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+ }
+ .login{
+    margin-right: 30px;
  }
